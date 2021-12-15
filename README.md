@@ -3,8 +3,6 @@
 A new Flutter project.
 Android Application allow users to set reminder at time of important events and the application will send a notifications to The Users.
 
-edit from github
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
