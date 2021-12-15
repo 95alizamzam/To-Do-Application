@@ -1,7 +1,7 @@
 # to_do_app
 
 A new Flutter project.
-allow users to set reminder at time of important events and the application will send a notifications to users 
+allow users to set reminder at time of important events and the application will send a notifications to The users 
 
 ## Getting Started
 
