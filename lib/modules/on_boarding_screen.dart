@@ -20,7 +20,7 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
       'color': Colors.blue,
       'title': 'TODO App Intorduction :',
       'text': 'Welcome to TODO application, this app is useful for creating notes for your important events.\n'
-          'this notes will send you a notification befor the actually time. and you can choose the period of time'
+          'this notes will send you a notification befor the event time. and you can choose the period of time'
           ' and you can schedule the notifications by time like daily or weakly or montly. \n',
     },
     {
@@ -28,14 +28,14 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
       'title': 'TODO App Modes :',
       'color': Colors.orange,
       'text': 'Try light Mode and dark Mode \n'
-          'we provide you probability to change TODO application mode to suitable your favorite Mode',
+          'we provide you probability to change TODO application mode to fit your favorite Mode',
     },
     {
       'photo': 'images/contact_us.jpg',
       'color': Colors.red,
       'title': 'TODO App Contacts  :',
       'text': 'Contact us \n'
-          'You can contact with us by vary Ways we provide it to you. \n'
+          'You can contact with us by vary Ways we introduce them to you. \n'
           'like contact via Email or phone number or whatsapp or via LinkedIn or Facebook',
     }
   ];
@@ -70,7 +70,8 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
                             borderRadius: BorderRadius.circular(15.0),
                             child: Image(
                               width: double.infinity,
-                              fit: BoxFit.fill,
+                              height: 300,
+                              fit: BoxFit.cover,
                               image: AssetImage(data[index]['photo']),
                             ),
                           ),

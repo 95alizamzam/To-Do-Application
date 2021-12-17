@@ -31,11 +31,6 @@ if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 }
 
-
-
-
-
-
 android {
     compileSdkVersion 30
 
